@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 st.markdown('# Main project page')
 
-df = pd.read_csv('/Users/darabizina/Desktop/brain_stroke.csv')
+df = pd.read_csv('brain_stroke.csv')
 d = df.head()
 
 main, data, concl = st.tabs(['Dataset analysis', 'Data cleanup and transformation', 'Conclusion'])
